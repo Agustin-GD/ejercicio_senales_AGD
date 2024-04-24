@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.gd" id="2_fhfhb"]
 
 [node name="VioletGenerator" type="TextureButton"]
+action_mode = 0
 texture_normal = ExtResource("1")
 script = ExtResource("2_fhfhb")
 

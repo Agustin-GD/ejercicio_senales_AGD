@@ -11,12 +11,14 @@ func _process(delta):
 	pass
 
 
-func _on_button_down():
-	generate_block() #Efectua la función generate_block.
-
 func generate_block():
-	var Clon_Block = preload("res://scenes/Blocks/Red/BlockRed.tscn").instance() #Instancia la escena.
+	var scene_Block = preload("res://scenes/Blocks/Red/BlockRed.tscn") #Instancia la escena.
+	var Clon_Block = scene_Block.instantiate()
 	add_child (Clon_Block) #Jerarquiza por debajo de la escena original al bloque generado.
 
 func delete():
 	queue_free() #Elimina la instancia
+
+
+func _on_button_down():
+		generate_block() #Efectua la función generate_block.

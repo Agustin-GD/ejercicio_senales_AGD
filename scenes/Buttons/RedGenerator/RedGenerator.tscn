@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scenes/Buttons/RedGenerator/RedGenerator.gd" id="2_vjrkn"]
 
 [node name="RedGenerator" type="TextureButton"]
+action_mode = 0
 texture_normal = ExtResource("1")
 script = ExtResource("2_vjrkn")
 
