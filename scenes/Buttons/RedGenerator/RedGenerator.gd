@@ -10,5 +10,10 @@ func _ready():
 func _process(delta):
 	pass
 
+
 func _on_button_down():
-	pass # Replace with function body.
+	generate_block() #Efectua la función generate_block.
+
+func generate_block():
+	var Clon_Block = preload("res://scenes/Blocks/Red/BlockRed.tscn").instance() #Instancia la escena.
+	add_child (Clon_Block) #Jerarquiza por debajo de la escena original al bloque generado.
