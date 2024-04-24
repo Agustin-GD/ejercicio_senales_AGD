@@ -42,5 +42,9 @@ position = Vector2(513.885, 577.225)
 shape = SubResource("1")
 
 [node name="CountLabel" type="Label" parent="."]
+offset_left = 413.0
+offset_top = 250.0
+offset_right = 593.0
+offset_bottom = 273.0
 text = "Cantidad de Instancias:
 "
