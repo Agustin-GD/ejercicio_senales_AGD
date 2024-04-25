@@ -25,3 +25,4 @@ func _on_violet_generator_button_down():
 
 func delete():
 	instancesCount = 0
+	$CountLabel.text = "instancesCount: " + str(instancesCount)
