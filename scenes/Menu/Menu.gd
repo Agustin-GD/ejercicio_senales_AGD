@@ -20,6 +20,8 @@ func _on_red_generator_button_down():
 	count_new_instances()
 
 
-
 func _on_violet_generator_button_down():
 	count_new_instances()
+
+func delete():
+	instancesCount = 0
